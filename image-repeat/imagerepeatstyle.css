@@ -1,0 +1,28 @@
+html {
+  overflow:hidden;
+}
+
+body {
+  background-color:white;
+}
+
+canvas {
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+a {
+  position:fixed;
+  text-decoration:none;
+  bottom:30px;
+  right:53px;
+  font-family:gopher;
+  color:#233EF4;
+  font-size:20pt;
+  z-index:1;
+}
+
+a:hover {
+  text-decoration:underline;
+}

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Prompt:100,200,300,400,500,600,700,800,900&display=swap');
+
+body {
+  font-family:Prompt;
+  font-size:60px;
+  line-height:100px;
+  text-align:center;
+
+  background-color:#00B440;
+  /* color:#F5931C; */
+
+  min-height: 100vh;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+section {
+  width:1200px;
+
+  display:grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows:100px;
+}
+
+div {
+  font-weight:100;
+  /* transform:scale(.2); */
+  transition: transform .3s;
+}
+
+.no {
+  color:#00B440;
+}
+
+.yes {
+  /* color:white; */
+}

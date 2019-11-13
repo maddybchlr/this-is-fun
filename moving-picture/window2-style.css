@@ -1,0 +1,80 @@
+.module {
+  --x: 0px;
+  --y: 0px;
+  background-image: url(mushrooms.jpg);
+  background-size: 400px;
+  background-position: var(--x) var(--y);
+  width: 200px;
+  height: 200px;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:#BECE7C;
+}
+
+.bigwindow {
+  position:absolute;
+  height:210px;
+  width:210px;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  pointer-events: none;
+}
+
+.right {
+  position:absolute;
+  display:flex;
+  right:21%;
+  top:50%;
+  transform:translate(-25%, -50%);
+  height:45px;
+  width:45px;
+  /* border:1px black solid; */
+  animation: bounceright .6s infinite ease-out;
+  animation-play-state:paused;
+}
+
+.right:hover {
+  animation-play-state: running;
+}
+
+.left {
+  position:absolute;
+  display:flex;
+  left:21%;
+  top:50%;
+  transform:translate(-25%, -50%);
+  height:45px;
+  width:45px;
+  /* border:1px black solid; */
+  animation: bounceleft .6s infinite ease-out;
+  animation-play-state:paused;
+}
+
+.left:hover {
+  animation-play-state: running;
+}
+
+.next,
+.nextarrow,
+.previous {
+  height:45px;
+}
+
+@keyframes bounceright {
+  0% {right:21.5%}
+  70% {right:21%}
+  100% {right:21.5%}
+}
+
+@keyframes bounceleft {
+  0% {left:21.5%}
+  70% {left:21%}
+  100% {left:21.5%}
+}

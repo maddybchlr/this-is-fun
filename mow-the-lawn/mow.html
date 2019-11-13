@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>mow the lawn!</title>
+  <style type="text/css">
+    body {
+      margin:0; padding:0;
+      background-color:#39B0FF;
+      cursor: url("mower2.png") 40 45, auto;
+    }
+
+    #content {
+      width:534px;
+      height:350px;
+      margin: 0 auto;
+      margin-top:50px;
+      border:8px solid white;
+    }
+
+    #house {
+      width:100vw;
+      margin:0 auto;
+      text-align:center;
+      margin-top:115px;
+      margin-bottom:-63px;
+      /* border:1px yellow solid; */
+    }
+
+    #grass {
+      position:absolute;
+      width:100vw;
+      height:73.15%;
+      bottom:0;
+      background-color:black;
+      z-index:-1;
+    }
+
+    img {
+      width:550px;
+      user-select: none;
+    }
+
+    .fence {
+      position:relative;
+      bottom:41px;
+      left:50%;
+      transform:translateX(-50%);
+      width:550px;
+    }
+
+    .cloud1 {
+      position:absolute;
+      height:40px;
+      width:100px;
+      left:15%;
+      top:115px;
+      animation: float1 .8s infinite linear;
+    }
+
+    .cloud2 {
+      position:absolute;
+      height:40px;
+      width:100px;
+      left:28%;
+      top:60px;
+      animation: float2 .8s infinite linear;
+    }
+
+    .cloud3 {
+      position:absolute;
+      height:40px;
+      width:100px;
+      left:65%;
+      top:30px;
+      animation: float3 .8s infinite linear;
+    }
+
+    .cloud4 {
+      position:absolute;
+      height:40px;
+      width:100px;
+      left:75%;
+      top:115px;
+      animation: float4 .8s infinite linear;
+    }
+
+    .cloud5 {
+      position:absolute;
+      height:40px;
+      width:100px;
+      left:88%;
+      top:85px;
+      animation: float5 .8s infinite linear;
+    }
+
+    .cloud6 {
+      position:absolute;
+      height:40px;
+      width:100px;
+      left:5%;
+      top:75px;
+      animation: float6 .8s infinite linear;
+    }
+
+    @keyframes float1 {
+      0% {top:115px}
+      50% {top:110px}
+      100% {top:115px}
+    }
+
+    @keyframes float2 {
+      0% {top:45px}
+      50% {top:50px}
+      100% {top:45px}
+    }
+
+    @keyframes float6 {
+      0% {top:70px}
+      50% {top:75px}
+      100% {top:70px}
+    }
+
+    @keyframes float3 {
+      0% {top:45px}
+      50% {top:40px}
+      100% {top:45px}
+    }
+
+    @keyframes float5 {
+      0% {top:80px}
+      50% {top:75px}
+      100% {top:80px}
+    }
+
+    @keyframes float4 {
+      0% {top:115px}
+      50% {top:120px}
+      100% {top:115px}
+    }
+
+    @keyframes float7 {
+      0% {top:115px}
+      50% {top:120px}
+      100% {top:115px}
+    }
+  </style>
+</head>
+
+<body>
+  <img class="cloud1" src="cloud1.png">
+  <img class="cloud2" src="cloud2.png">
+  <img class="cloud3" src="cloud1.png">
+  <img class="cloud4" src="cloud4.png">
+  <img class="cloud5" src="cloud2.png">
+  <img class="cloud6" src="cloud4.png">
+  <div id="house">
+    <img src="house3.png">
+  </div>
+  <div id="content">
+    <canvas id="myCanvas"></canvas>
+  </div>
+    <img class="fence" src="fence.png">
+  <div id="grass"></div>
+
+  <script type="text/javascript">
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+    var painting = document.getElementById("content");
+    var paintStyle = getComputedStyle(painting);
+    canvas.width = parseInt(paintStyle.getPropertyValue("width"));
+    canvas.height = parseInt(paintStyle.getPropertyValue("height"));
+
+    var mouse = {x: 0, y: 0};
+
+    canvas.addEventListener('mousemove', function(e) {
+      mouse.x = e.pageX - this.offsetLeft;
+      mouse.y = e.pageY - this.offsetTop;
+    }, false);
+
+    ctx.lineWidth = 25;
+    ctx.lineJoin = 'round';
+    ctx.lineCap = 'square';
+    ctx.strokeStyle = '#16D84D';
+
+    ctx.fillStyle = "#00B440";
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    canvas.addEventListener('mousedown', function(e) {
+      ctx.beginPath();
+      ctx.moveTo(mouse.x, mouse.y);
+      canvas.addEventListener('mousemove', onPaint, false);
+    }, false);
+
+    canvas.addEventListener('mouseup', function() {
+      canvas.removeEventListener('mousemove', onPaint, false);
+    }, false);
+
+    var onPaint = function() {
+      ctx.lineTo(mouse.x, mouse.y);
+      ctx.stroke();
+    };
+
+  </script>
+
+</body>
+
+</html>
