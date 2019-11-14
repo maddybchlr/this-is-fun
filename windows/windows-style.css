@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Cousine:400i&display=swap');
+
+.module1 {
+  --x: 0px;
+  --y: 0px;
+  background-image: url(hills.gif);
+  background-size: 400px;
+  background-position: var(--x) var(--y);
+  width: 200px;
+  height: 200px;
+}
+
+.module2 {
+  --x: 0px;
+  --y: 0px;
+  background-image: url(water1.gif);
+  background-size: 400px;
+  background-position: var(--x) var(--y);
+  width: 200px;
+  height: 200px;
+}
+
+.module3 {
+  --x: 0px;
+  --y: 0px;
+  background-image: url(rain.gif);
+  background-size: 400px;
+  background-position: var(--x) var(--y);
+  width: 200px;
+  height: 200px;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:white;
+}
+
+.modulecontainer1 {
+  position:absolute;
+  top:50%;
+  transform:translate(-18%, -50%);
+  left:18%;
+  height:200px;
+  width:200px;
+  /* border:1px solid black; */
+}
+
+.modulecontainer2 {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  height:200px;
+  width:200px;
+  /* border:1px solid black; */
+}
+
+.modulecontainer3 {
+  position:absolute;
+  top:50%;
+  transform:translate(-82%, -50%);
+  left:82%;
+  height:200px;
+  width:200px;
+  /* border:1px solid black; */
+}
+
+.frame1 {
+  position:absolute;
+  height:210px;
+  width:210px;
+  top:50%;
+  left:18%;
+  transform:translate(-18%, -50%);
+  pointer-events: none;
+  z-index:1;
+}
+
+.frame2 {
+  position:absolute;
+  height:210px;
+  width:210px;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  pointer-events: none;
+  z-index:1;
+}
+
+.frame3 {
+  position:absolute;
+  height:210px;
+  width:210px;
+  top:50%;
+  left:82%;
+  transform:translate(-82%, -50%);
+  pointer-events: none;
+  z-index:1;
+}
+
+.popup {
+  position:absolute;
+  /* border:2px solid purple; */
+  height:3.8%;
+  width:280px;
+  left:50%;
+  transform:translate(-50%, -50%);
+  top:50%;
+  padding:20px;
+  font-family:cousine;
+  font-size:14pt;
+  color:#309760;
+  display:none;
+}
+
+@media screen and (max-width: 840px) {
+  .frame1, .frame2, .frame3, .module1, .module2, .module3 {
+    display:none;
+  }
+
+@media screen and (max-width: 840px) {
+  .popup {
+    display:block;
+  }
