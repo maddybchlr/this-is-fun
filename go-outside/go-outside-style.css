@@ -1,0 +1,1216 @@
+#mydiv1 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:30px;
+  width:20px;
+  top:20px;
+  left:27px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+#butterfly {
+  height:30px;
+}
+
+
+
+#mydiv2 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:30px;
+  width:30px;
+  top:173px;
+  left:86px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv3 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:30px;
+  width:30px;
+  top:70px;
+  left:25px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv4 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:70px;
+  width:75px;
+  top:87px;
+  left:80px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv5 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:30px;
+  width:32px;
+  top:260px;
+  left:100px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv6 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:52px;
+  width:52px;
+  top:21px;
+  left:65px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv7 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:25px;
+  width:53px;
+  top:25px;
+  left:132px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv8 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:45px;
+  width:45px;
+  top:170px;
+  left:20px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv9 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:45px;
+  width:50px;
+  top:228px;
+  left:25px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv10 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:30px;
+  width:45px;
+  top:115px;
+  left:22px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv11 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:55px;
+  width:78px;
+  top:25px;
+  left:202px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv12 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:65px;
+  width:65px;
+  top:110px;
+  left:170px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv13 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:80px;
+  width:80px;
+  top:35px;
+  left:285px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv14 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:40px;
+  width:40px;
+  top:60px;
+  left:163px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv15 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:28px;
+  width:27px;
+  top:145px;
+  left:245px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv16 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:75px;
+  width:48px;
+  top:200px;
+  left:135px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv17 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:40px;
+  width:55px;
+  top:305px;
+  left:120px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv18 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:33px;
+  width:25px;
+  bottom:235px;
+  left:27px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv19 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:13px;
+  width:13px;
+  top:227px;
+  left:95px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv20 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:55px;
+  width:47px;
+  top:245px;
+  left:190px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv21 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:42px;
+  width:73px;
+  top:193px;
+  left:247px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv22 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:65px;
+  width:80px;
+  top:290px;
+  left:20px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+#tree2 {
+  height:80px;
+}
+
+
+
+#mydiv23 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:20px;
+  width:23px;
+  top:163px;
+  left:135px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv24 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:75px;
+  width:65px;
+  bottom:70px;
+  left:290px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv25 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:17px;
+  width:17px;
+  bottom:170px;
+  left:325px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv26 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:28px;
+  width:53px;
+  top:88px;
+  left:230px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv27 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:15px;
+  width:200px;
+  bottom:70px;
+  left:30px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+#grass {
+  height:30px;
+}
+
+
+
+#mydiv28 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:20px;
+  width:310px;
+  bottom:20px;
+  left:30px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+#waves {
+  width:320px;
+}
+
+
+
+#mydiv29 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:33px;
+  width:33px;
+  bottom:55px;
+  left:250px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv30 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:60px;
+  width:60px;
+  bottom:365px;
+  left:23px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv31 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:60px;
+  width:60px;
+  bottom:90px;
+  left:215px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv32 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:70px;
+  width:53px;
+  top:225px;
+  left:300px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv33 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:70px;
+  width:75px;
+  bottom:105px;
+  left:30px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+#sun2 {
+  height:70px;
+}
+
+
+
+#mydiv34 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:60px;
+  width:60px;
+  bottom:135px;
+  left:257px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+#tornado {
+  height:60px;
+}
+
+
+
+#mydiv35 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:50px;
+  width:50px;
+  bottom:105px;
+  left:122px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv36 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:30px;
+  width:45px;
+  bottom:115px;
+  left:184px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv37 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:30px;
+  width:63px;
+  bottom:205px;
+  left:290px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+#starfish {
+  height:30px;
+}
+
+
+
+#mydiv38 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:20px;
+  width:20px;
+  top:260px;
+  left:260px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv39 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:50px;
+  width:60px;
+  top:295px;
+  left:235px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv40 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:50px;
+  width:60px;
+  bottom:160px;
+  left:180px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv41 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:60px;
+  width:60px;
+  bottom:162px;
+  left:103px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv42 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:40px;
+  width:45px;
+  top:138px;
+  left:290px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+#nest {
+  height:40px;
+}
+
+
+
+#mydiv43 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:28px;
+  width:30px;
+  top:190px;
+  left:197px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv44 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:30px;
+  width:70px;
+  bottom:190px;
+  left:26px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+#dolphin {
+  height:35px;
+}
+
+
+
+#mydiv45 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:55px;
+  width:40px;
+  top:315px;
+  left:188px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+#fairy {
+  height:60px;
+}
+
+
+
+#mydiv46 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:50px;
+  width:50px;
+  bottom:212px;
+  left:228px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+#planet {
+  height:50px;
+}
+
+
+
+#mydiv47 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:32px;
+  width:70px;
+  top:345px;
+  left:285px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+#saturn {
+  height:38px;
+}
+
+
+
+#mydiv48 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:20px;
+  width:40px;
+  top:355px;
+  left:80px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+#snail {
+  height:25px;
+}
+
+
+
+#mydiv49 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:90px;
+  width:37px;
+  top:355px;
+  left:140px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+#balloons {
+  height:90px;
+}
+
+
+
+#mydiv50 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:20px;
+  width:20px;
+  bottom:225px;
+  left:192px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv51 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:25px;
+  width:60px;
+  bottom:235px;
+  left:70px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv52 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:30px;
+  width:40px;
+  top:365px;
+  left:213px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv53 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:20px;
+  width:20px;
+  bottom:219px;
+  left:155px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+#bug {
+  height:30px;
+}
+
+
+
+#mydiv54 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:40px;
+  width:75px;
+  bottom:250px;
+  left:130px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv55 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:40px;
+  width:85px;
+  bottom:275px;
+  left:215px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv56 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:20px;
+  width:20px;
+  top:309px;
+  left:307px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv57 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:60px;
+  width:50px;
+  bottom:285px;
+  left:25px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+#bomb {
+  height:70px;
+}
+
+
+
+#mydiv58 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:50px;
+  width:90px;
+  bottom:310px;
+  left:180px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv59 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:40px;
+  width:25px;
+  bottom:255px;
+  left:322px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+#fire {
+  height:40px;
+}
+
+
+
+#mydiv60 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:20px;
+  width:25px;
+  bottom:258px;
+  left:280px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv61 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:15px;
+  width:15px;
+  bottom:294px;
+  left:192px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv62 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:70px;
+  width:60px;
+  bottom:333px;
+  left:283px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+#fountain {
+  height:72px;
+}
+
+
+
+#mydiv63 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:27px;
+  width:20px;
+  bottom:365px;
+  left:263px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+#butterfly3 {
+  height:32px;
+}
+
+
+
+#mydiv64 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:60px;
+  width:60px;
+  bottom:278px;
+  left:95px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv65 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:45px;
+  width:25px;
+  bottom:355px;
+  left:98px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+#mailbox {
+  height:70px;
+}
+
+
+
+#mydiv66 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:20px;
+  width:20px;
+  top:60px;
+  left:130px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#mydiv67 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:20px;
+  width:20px;
+  top:225px;
+  left:243px;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
