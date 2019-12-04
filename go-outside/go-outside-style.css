@@ -1,100 +1,13 @@
-#mydiv1 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:30px;
-  width:20px;
-  top:20px;
-  left:27px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-#butterfly {
-  height:30px;
-}
-
-
-
-#mydiv2 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:30px;
-  width:30px;
-  top:173px;
-  left:86px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-
-
-#mydiv3 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:30px;
-  width:30px;
-  top:70px;
-  left:25px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-
-
-#mydiv4 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:70px;
-  width:75px;
-  top:87px;
-  left:80px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-
-
-#mydiv5 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:30px;
-  width:32px;
-  top:260px;
-  left:100px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-
-
-#mydiv6 {
+#divA,
+#divA2,
+#divA3 {
   position: absolute;
   /* background-color: blue; */
   text-align: center;
   height:52px;
   width:52px;
-  top:21px;
-  left:65px;
+  top:5.1%;
+  left:10.1%;
   cursor: move;
   display:flex;
   justify-content: center;
@@ -104,14 +17,16 @@
 
 
 
-#mydiv7 {
+#divB,
+#divB2,
+#divB3 {
   position: absolute;
   /* background-color: blue; */
   text-align: center;
   height:25px;
   width:53px;
-  top:25px;
-  left:132px;
+  top:16.6%;
+  left:15.2%;
   cursor: move;
   display:flex;
   justify-content: center;
@@ -121,14 +36,16 @@
 
 
 
-#mydiv8 {
+#divC,
+#divC2,
+#divC3 {
   position: absolute;
   /* background-color: blue; */
   text-align: center;
   height:45px;
   width:45px;
-  top:170px;
-  left:20px;
+  top:17.9%;
+  left:21.4%;
   cursor: move;
   display:flex;
   justify-content: center;
@@ -138,48 +55,16 @@
 
 
 
-#mydiv9 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:45px;
-  width:50px;
-  top:228px;
-  left:25px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-
-
-#mydiv10 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:30px;
-  width:45px;
-  top:115px;
-  left:22px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-
-
-#mydiv11 {
+#divD,
+#divD2,
+#divD3 {
   position: absolute;
   /* background-color: blue; */
   text-align: center;
   height:55px;
   width:78px;
-  top:25px;
-  left:202px;
+  top:15.1%;
+  left:8.9%;
   cursor: move;
   display:flex;
   justify-content: center;
@@ -189,65 +74,18 @@
 
 
 
-#mydiv12 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:65px;
-  width:65px;
-  top:110px;
-  left:170px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-
-
-#mydiv13 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:80px;
-  width:80px;
-  top:35px;
-  left:285px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-
-
-#mydiv14 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:40px;
-  width:40px;
-  top:60px;
-  left:163px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-
-
-#mydiv15 {
+#divE,
+#divE2,
+#divE3,
+#divE4,
+#divE5 {
   position: absolute;
   /* background-color: blue; */
   text-align: center;
   height:28px;
   width:27px;
-  top:145px;
-  left:245px;
+  top:21.3%;
+  left:13.6%;
   cursor: move;
   display:flex;
   justify-content: center;
@@ -255,67 +93,24 @@
   user-select: none;
 }
 
-
-
-#mydiv16 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:75px;
-  width:48px;
-  top:200px;
-  left:135px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
+#snowflake {
+  height: 23px;
 }
 
 
 
-#mydiv17 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:40px;
-  width:55px;
-  top:305px;
-  left:120px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-
-
-#mydiv18 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:33px;
-  width:25px;
-  bottom:235px;
-  left:27px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-
-
-#mydiv19 {
+#divF,
+#divF2,
+#divF3,
+#divF4,
+#divF5 {
   position: absolute;
   /* background-color: blue; */
   text-align: center;
   height:13px;
   width:13px;
-  top:227px;
-  left:95px;
+  top:17%;
+  left:19.7%;
   cursor: move;
   display:flex;
   justify-content: center;
@@ -325,179 +120,18 @@
 
 
 
-#mydiv20 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:55px;
-  width:47px;
-  top:245px;
-  left:190px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-
-
-#mydiv21 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:42px;
-  width:73px;
-  top:193px;
-  left:247px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-
-
-#mydiv22 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:65px;
-  width:80px;
-  top:290px;
-  left:20px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-#tree2 {
-  height:80px;
-}
-
-
-
-#mydiv23 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:20px;
-  width:23px;
-  top:163px;
-  left:135px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-
-
-#mydiv24 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:75px;
-  width:65px;
-  bottom:70px;
-  left:290px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-
-
-#mydiv25 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:17px;
-  width:17px;
-  bottom:170px;
-  left:325px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-
-
-#mydiv26 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:28px;
-  width:53px;
-  top:88px;
-  left:230px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-
-
-#mydiv27 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:15px;
-  width:200px;
-  bottom:70px;
-  left:30px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-#grass {
-  height:30px;
-}
-
-
-
-#mydiv28 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:20px;
-  width:310px;
-  bottom:20px;
-  left:30px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-#waves {
-  width:320px;
-}
-
-
-
-#mydiv29 {
+#divG,
+#divG2,
+#divG3,
+#divG4,
+#divG5 {
   position: absolute;
   /* background-color: blue; */
   text-align: center;
   height:33px;
   width:33px;
-  bottom:55px;
-  left:250px;
+  top:26.1%;
+  left:13%;
   cursor: move;
   display:flex;
   justify-content: center;
@@ -505,67 +139,22 @@
   user-select: none;
 }
 
-
-
-#mydiv30 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:60px;
-  width:60px;
-  bottom:365px;
-  left:23px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
+#star2 {
+  height:15px;
 }
 
 
 
-#mydiv31 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:60px;
-  width:60px;
-  bottom:90px;
-  left:215px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-
-
-#mydiv32 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:70px;
-  width:53px;
-  top:225px;
-  left:300px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-
-
-#mydiv33 {
+#divH,
+#divH2,
+#divH3 {
   position: absolute;
   /* background-color: blue; */
   text-align: center;
   height:70px;
   width:75px;
-  bottom:105px;
-  left:30px;
+  top:17.6%;
+  left:3.1%;
   cursor: move;
   display:flex;
   justify-content: center;
@@ -579,14 +168,16 @@
 
 
 
-#mydiv34 {
+#divI,
+#divI2,
+#divI3 {
   position: absolute;
   /* background-color: blue; */
   text-align: center;
   height:60px;
   width:60px;
-  bottom:135px;
-  left:257px;
+  top:21.6%;
+  left:16.6%;
   cursor: move;
   display:flex;
   justify-content: center;
@@ -600,217 +191,35 @@
 
 
 
-#mydiv35 {
+#divJ,
+#divJ2,
+#divJ3 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:50px;
+  width:60px;
+  top:6.1%;
+  left:15.2%;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#divK,
+#divK2,
+#divK3 {
   position: absolute;
   /* background-color: blue; */
   text-align: center;
   height:50px;
   width:50px;
-  bottom:105px;
-  left:122px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-
-
-#mydiv36 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:30px;
-  width:45px;
-  bottom:115px;
-  left:184px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-
-
-#mydiv37 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:30px;
-  width:63px;
-  bottom:205px;
-  left:290px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-#starfish {
-  height:30px;
-}
-
-
-
-#mydiv38 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:20px;
-  width:20px;
-  top:260px;
-  left:260px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-
-
-#mydiv39 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:50px;
-  width:60px;
-  top:295px;
-  left:235px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-
-
-#mydiv40 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:50px;
-  width:60px;
-  bottom:160px;
-  left:180px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-
-
-#mydiv41 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:60px;
-  width:60px;
-  bottom:162px;
-  left:103px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-
-
-#mydiv42 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:40px;
-  width:45px;
-  top:138px;
-  left:290px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-#nest {
-  height:40px;
-}
-
-
-
-#mydiv43 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:28px;
-  width:30px;
-  top:190px;
-  left:197px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-
-
-#mydiv44 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:30px;
-  width:70px;
-  bottom:190px;
-  left:26px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-#dolphin {
-  height:35px;
-}
-
-
-
-#mydiv45 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:55px;
-  width:40px;
-  top:315px;
-  left:188px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-#fairy {
-  height:60px;
-}
-
-
-
-#mydiv46 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:50px;
-  width:50px;
-  bottom:212px;
-  left:228px;
+  top:7.9%;
+  left:5.9%;
   cursor: move;
   display:flex;
   justify-content: center;
@@ -819,19 +228,21 @@
 }
 
 #planet {
-  height:50px;
+  height:40px;
 }
 
 
 
-#mydiv47 {
+#divL,
+#divL2,
+#divL3 {
   position: absolute;
   /* background-color: blue; */
   text-align: center;
   height:32px;
   width:70px;
-  top:345px;
-  left:285px;
+  top:25.6%;
+  left:7.8%;
   cursor: move;
   display:flex;
   justify-content: center;
@@ -845,14 +256,344 @@
 
 
 
-#mydiv48 {
+#divM,
+#divM2,
+#divM3 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:25px;
+  width:60px;
+  top:11.6%;
+  left:19.3%;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#divN,
+#divN2,
+#divN3,
+#divN4,
+#divN5 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:20px;
+  width:20px;
+  top:13%;
+  left:4%;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+#star3 {
+  height:15px;
+}
+
+
+
+#divO,
+#divO2,
+#divO3,
+#divO4,
+#divO5 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:20px;
+  width:20px;
+  top:11.6%;
+  left:14%;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#divP,
+#divP2,
+#divP3 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:30px;
+  width:20px;
+  top:46.4%;
+  left:11.9%;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+#butterfly {
+  height:30px;
+}
+
+
+
+#divQ,
+#divQ2,
+#divQ3 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:30px;
+  width:30px;
+  top:46.6%;
+  left:16.2%;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#divR,
+#divR2,
+#divR3 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:30px;
+  width:30px;
+  top:47.6%;
+  left:8.8%;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#divS,
+#divS2,
+#divS3,
+#divS4,
+#divS5 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:70px;
+  width:75px;
+  top:38.1%;
+  left:17.2%;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#divT,
+#divT2,
+#divT3 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:30px;
+  width:45px;
+  top:53.6%;
+  left:19%;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#divU,
+#divU2,
+#divU3,
+#divU4,
+#divU5 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:80px;
+  width:80px;
+  top:39.1%;
+  left:3.8%;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+#pinetree {
+  height:90px;
+}
+
+
+
+#divV,
+#divV2,
+#divV3,
+#divV4,
+#divV5 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:55px;
+  width:47px;
+  top:37.6%;
+  left:8.8%;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#divW,
+#divW2,
+#divW3,
+#divW4,
+#divW5 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:65px;
+  width:80px;
+  top:54.1%;
+  left:9%;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+#tree2 {
+  height:75px;
+}
+
+
+#divX,
+#divX2,
+#divX3 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:60px;
+  width:60px;
+  top:54.1%;
+  left:14.6%;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+#tulip {
+  height:50px;
+}
+
+
+
+#divY,
+#divY2,
+#divY3 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:40px;
+  width:45px;
+  top:41.1%;
+  left:12.7%;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+#nest {
+  height:30px;
+}
+
+
+
+#divZ,
+#divZ2,
+#divZ3 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:28px;
+  width:30px;
+  top:50.1%;
+  left:14%;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+#rose {
+  height:20px;
+}
+
+
+
+#divAA,
+#divAA2,
+#divAA3 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:55px;
+  width:40px;
+  top:52.1%;
+  left:5.7%;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+#fairy {
+  height:60px;
+}
+
+
+
+#divBB,
+#divBB2,
+#divBB3 {
   position: absolute;
   /* background-color: blue; */
   text-align: center;
   height:20px;
   width:40px;
-  top:355px;
-  left:80px;
+  top:37.4%;
+  left:13.6%;
   cursor: move;
   display:flex;
   justify-content: center;
@@ -866,86 +607,16 @@
 
 
 
-#mydiv49 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:90px;
-  width:37px;
-  top:355px;
-  left:140px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-#balloons {
-  height:90px;
-}
-
-
-
-#mydiv50 {
+#divCC,
+#divCC2,
+#divCC3 {
   position: absolute;
   /* background-color: blue; */
   text-align: center;
   height:20px;
   width:20px;
-  bottom:225px;
-  left:192px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-
-
-#mydiv51 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:25px;
-  width:60px;
-  bottom:235px;
-  left:70px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-
-
-#mydiv52 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:30px;
-  width:40px;
-  top:365px;
-  left:213px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-
-
-#mydiv53 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:20px;
-  width:20px;
-  bottom:219px;
-  left:155px;
+  top:50.4%;
+  left:3.7%;
   cursor: move;
   display:flex;
   justify-content: center;
@@ -959,31 +630,16 @@
 
 
 
-#mydiv54 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:40px;
-  width:75px;
-  bottom:250px;
-  left:130px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-
-
-#mydiv55 {
+#divDD,
+#divDD2,
+#divDD3 {
   position: absolute;
   /* background-color: blue; */
   text-align: center;
   height:40px;
   width:85px;
-  bottom:275px;
-  left:215px;
+  top:47.6%;
+  left:18.5%;
   cursor: move;
   display:flex;
   justify-content: center;
@@ -993,14 +649,17 @@
 
 
 
-#mydiv56 {
+#divEE,
+#divEE2,
+#divEE3 {
   position: absolute;
   /* background-color: blue; */
   text-align: center;
-  height:20px;
-  width:20px;
-  top:309px;
-  left:307px;
+  height:55px;
+  width:78px;
+  /* top:86.7%; */
+  bottom:5.2%;
+  left:9.1%;
   cursor: move;
   display:flex;
   justify-content: center;
@@ -1010,35 +669,19 @@
 
 
 
-#mydiv57 {
+#divFF,
+#divFF2,
+#divFF3,
+#divFF4,
+#divFF5 {
   position: absolute;
   /* background-color: blue; */
   text-align: center;
-  height:60px;
-  width:50px;
-  bottom:285px;
-  left:25px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-#bomb {
-  height:70px;
-}
-
-
-
-#mydiv58 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:50px;
-  width:90px;
-  bottom:310px;
-  left:180px;
+  height:75px;
+  width:48px;
+  /* top:76.2%; */
+  bottom:13.5%;
+  left:3.1%;
   cursor: move;
   display:flex;
   justify-content: center;
@@ -1048,14 +691,17 @@
 
 
 
-#mydiv59 {
+#divGG,
+#divGG2,
+#divGG3 {
   position: absolute;
   /* background-color: blue; */
   text-align: center;
   height:40px;
-  width:25px;
-  bottom:255px;
-  left:322px;
+  width:55px;
+  /* top:78.9%; */
+  bottom:14.5%;
+  left:7.9%;
   cursor: move;
   display:flex;
   justify-content: center;
@@ -1063,20 +709,21 @@
   user-select: none;
 }
 
-#fire {
-  height:40px;
-}
 
 
-
-#mydiv60 {
+#divHH,
+#divHH2,
+#divHH3,
+#divHH4,
+#divHH5 {
   position: absolute;
   /* background-color: blue; */
   text-align: center;
-  height:20px;
+  height:33px;
   width:25px;
-  bottom:258px;
-  left:280px;
+  /* top:86.2%; */
+  bottom:8.5%;
+  left:6.6%;
   cursor: move;
   display:flex;
   justify-content: center;
@@ -1086,14 +733,154 @@
 
 
 
-#mydiv61 {
+#divII,
+#divII2,
+#divII3 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:42px;
+  width:73px;
+  /* top:74.5%; */
+  bottom:19.1%;
+  left:11.6%;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+#divJJ,
+#divJJ2,
+#divJJ3 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:75px;
+  width:65px;
+  /* top:74.7%; */
+  bottom:14%;
+  left:20.3%;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+#diver {
+  height:85px;
+}
+
+
+
+#divKK,
+#divKK2,
+#divKK3 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:28px;
+  width:53px;
+  /* top:87.2%; */
+  bottom:9%;
+  left:19.6%;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+
+#divLL,
+#divLL2,
+#divLL3 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:30px;
+  width:63px;
+  /* top:71.5%; */
+  bottom:22.4%;
+  left:6.5%;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+#starfish {
+  height:30px;
+}
+
+
+
+#divMM,
+#divMM2,
+#divMM3 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:30px;
+  width:70px;
+  /* top:70.2%; */
+  bottom:25.5%;
+  left:14.1%;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+#dolphin {
+  height:35px;
+}
+
+
+
+#divNN,
+#divNN2,
+#divNN3 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:30px;
+  width:40px;
+  /* top:77.7%; */
+  bottom:17.5%;
+  left:16.8%;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+#lobster {
+  height:28px;
+}
+
+
+
+#divOO,
+#divOO2,
+#divOO3,
+#divOO4,
+#divOO5 {
   position: absolute;
   /* background-color: blue; */
   text-align: center;
   height:15px;
   width:15px;
-  bottom:294px;
-  left:192px;
+  /* top:70.5%; */
+  bottom:26.8%;
+  left:11.9%;
   cursor: move;
   display:flex;
   justify-content: center;
@@ -1103,94 +890,19 @@
 
 
 
-#mydiv62 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:70px;
-  width:60px;
-  bottom:333px;
-  left:283px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-#fountain {
-  height:72px;
-}
-
-
-
-#mydiv63 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:27px;
-  width:20px;
-  bottom:365px;
-  left:263px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-#butterfly3 {
-  height:32px;
-}
-
-
-
-#mydiv64 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:60px;
-  width:60px;
-  bottom:278px;
-  left:95px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-
-
-#mydiv65 {
-  position: absolute;
-  /* background-color: blue; */
-  text-align: center;
-  height:45px;
-  width:25px;
-  bottom:355px;
-  left:98px;
-  cursor: move;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-}
-
-#mailbox {
-  height:70px;
-}
-
-
-
-#mydiv66 {
+#divPP,
+#divPP2,
+#divPP3,
+#divPP4,
+#divPP5 {
   position: absolute;
   /* background-color: blue; */
   text-align: center;
   height:20px;
   width:20px;
-  top:60px;
-  left:130px;
+  /* top:90.2%; */
+  bottom:6.8%;
+  left:16.1%;
   cursor: move;
   display:flex;
   justify-content: center;
@@ -1198,19 +910,414 @@
   user-select: none;
 }
 
+#anemone {
+  height:40px;
+}
 
 
-#mydiv67 {
+
+
+#divQQ,
+#divQQ2,
+#divQQ3,
+#divQQ4,
+#divQQ5 {
   position: absolute;
   /* background-color: blue; */
   text-align: center;
   height:20px;
   width:20px;
-  top:225px;
-  left:243px;
+  /* top:84.2%; */
+  bottom:13%;
+  left:18.1%;
   cursor: move;
   display:flex;
   justify-content: center;
   align-items: center;
   user-select: none;
+}
+
+#jellyfish {
+  height:25px;
+}
+
+
+
+#divRR,
+#divRR2,
+#divRR3 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:20px;
+  width:20px;
+  /* top:83.3%; */
+  bottom:13.3%;
+  left:13.8%;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+#crab {
+  height:18px;
+}
+
+
+
+
+#divSS,
+#divSS2,
+#divSS3,
+#divSS4,
+#divSS5 {
+  position: absolute;
+  /* background-color: blue; */
+  text-align: center;
+  height:20px;
+  width:20px;
+  /* top:73.2%; */
+  bottom:23%;
+  left:19.1%;
+  cursor: move;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+#seagull {
+  height:40px;
+}
+
+
+
+.oval1 {
+  margin-top:35px;
+  margin-left:35px;
+  position:absolute;
+  height:25vh;
+  width:310px;
+  top:0;
+  /* border: 1px solid black; */
+}
+
+.oval2 {
+  margin-left:35px;
+  position:absolute;
+  height:25vh;
+  width:310px;
+  top:50%;
+  transform:translateY(-50%);
+  /* border: 1px solid black; */
+}
+
+.oval3 {
+  margin-bottom:35px;
+  margin-left:35px;
+  position:absolute;
+  height:25vh;
+  width:310px;
+  bottom:0;
+  /* border: 1px solid black; */
+}
+
+#divwhite {
+  z-index:-1;
+  position:absolute;
+  height:90%;
+  width:63%;
+  right:0;
+  margin-right:144px;
+  top:50%;
+  transform:translateY(-50%);
+  /* border:1px solid black; */
+  background-color:white;
+}
+
+#divtan {
+  z-index:-1;
+  position:absolute;
+  height:90%;
+  width:63%;
+  right:0;
+  margin-right:144px;
+  top:50%;
+  transform:translateY(-50%);
+  /* border:1px solid black; */
+  background-color: #e4c49b;
+}
+
+#divbrown {
+  z-index:-1;
+  position:absolute;
+  height:90%;
+  width:63%;
+  right:0;
+  margin-right:144px;
+  top:50%;
+  transform:translateY(-50%);
+  /* border:1px solid black; */
+  background-color:hsl(25, 40%, 45%);
+}
+
+#divgreen {
+  z-index:-1;
+  position:absolute;
+  height:90%;
+  width:63%;
+  right:0;
+  margin-right:144px;
+  top:50%;
+  transform:translateY(-50%);
+  /* border:1px solid black; */
+  background-color: #39ac39;
+}
+
+#divblack {
+  z-index:-1;
+  position:absolute;
+  height:90%;
+  width:63%;
+  right:0;
+  margin-right:144px;
+  top:50%;
+  transform:translateY(-50%);
+  /* border:1px solid black; */
+  background-color:black;
+}
+
+#divblue {
+  z-index:-1;
+  position:absolute;
+  height:90%;
+  width:63%;
+  right:0;
+  margin-right:144px;
+  top:50%;
+  transform:translateY(-50%);
+  /* border:1px solid black; */
+  background-color:lightskyblue;
+}
+
+#divteal {
+  z-index:-1;
+  position:absolute;
+  height:90%;
+  width:63%;
+  right:0;
+  margin-right:144px;
+  top:50%;
+  transform:translateY(-50%);
+  /* border:1px solid black; */
+  background-color:#62C6C2;
+}
+
+#divgray {
+  z-index:-1;
+  position:absolute;
+  height:90%;
+  width:63%;
+  right:0;
+  margin-right:144px;
+  top:50%;
+  transform:translateY(-50%);
+  /* border:1px solid black; */
+  background-color:#b3b3b3;
+}
+
+#divdarkblue {
+  z-index:-1;
+  position:absolute;
+  height:90%;
+  width:63%;
+  right:0;
+  margin-right:144px;
+  top:50%;
+  transform:translateY(-50%);
+  /* border:1px solid black; */
+  background-color:#000066;
+}
+
+#divgreen2 {
+  z-index:-1;
+  position:absolute;
+  height:90%;
+  width:63%;
+  right:0;
+  margin-right:144px;
+  top:50%;
+  transform:translateY(-50%);
+  /* border:1px solid black; */
+  background-color:darkolivegreen;
+}
+
+#divteal {
+  z-index:-1;
+  position:absolute;
+  height:90%;
+  width:63%;
+  right:0;
+  margin-right:144px;
+  top:50%;
+  transform:translateY(-50%);
+  /* border:1px solid black; */
+  background-color:#62C6C2;
+}
+
+#divyellow {
+  z-index:-1;
+  position:absolute;
+  height:90%;
+  width:63%;
+  right:0;
+  margin-right:144px;
+  top:50%;
+  transform:translateY(-50%);
+  /* border:1px solid black; */
+  background-color:#ffe033;
+}
+
+#divorange {
+  z-index:-1;
+  position:absolute;
+  height:90%;
+  width:63%;
+  right:0;
+  margin-right:144px;
+  top:50%;
+  transform:translateY(-50%);
+  /* border:1px solid black; */
+  background-color:#F89C3E;
+}
+
+#divpink {
+  z-index:-1;
+  position:absolute;
+  height:90%;
+  width:63%;
+  right:0;
+  margin-right:144px;
+  top:50%;
+  transform:translateY(-50%);
+  /* border:1px solid black; */
+  background-color:lightpink;
+}
+
+#buttonbox {
+  position:absolute;
+  height:90%;
+  width:70px;
+  right:35px;
+  top:50%;
+  transform:translateY(-50%);
+  /* border:1px solid black; */
+  background-color:white;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-between;
+
+}
+
+
+button {
+  position:relative;
+  width:70px;
+  height:35px;
+  text-decoration:none;
+  outline:none;
+}
+
+.whiteb {
+  /* background-color:white; */
+  top:0px;
+  border:1px solid black;
+  border-radius:100%;
+}
+
+.blackb {
+  /* background-color:black; */
+  border:none;
+  border:1px solid black;
+  border-radius:100%;
+}
+
+.blueb {
+  /* background-color:lightskyblue; */
+  border:none;
+  border:1px solid black;
+  border-radius:100%;
+}
+
+.brownb {
+  /* background-color:hsl(25, 40%, 45%); */
+  border:none;
+  border:1px solid black;
+  border-radius:100%;
+}
+
+.tanb {
+  /* background-color:#e4c49b; */
+  border:none;
+  border:1px solid black;
+  border-radius:100%;
+}
+
+.greenb {
+  /* background-color:#39ac39; */
+  border:none;
+  border:1px solid black;
+  border-radius:100%;
+}
+
+.tealb {
+  /* background-color:#62C6C2; */
+  border:none;
+  border:1px solid black;
+  border-radius:100%;
+}
+
+.grayb {
+  /* background-color:#b3b3b3; */
+  border:none;
+  border:1px solid black;
+  border-radius:100%;
+}
+
+.darkblueb {
+  /* background-color:#000066; */
+  border:none;
+  border:1px solid black;
+  border-radius:100%;
+}
+
+.green2b {
+  /* background-color:darkolivegreen; */
+  border:none;
+  border:1px solid black;
+  border-radius:100%;
+}
+
+.yellowb {
+  /* background-color:darkolivegreen; */
+  border:none;
+  border:1px solid black;
+  border-radius:100%;
+  margin-bottom:0;
+}
+
+.orangeb {
+  /* background-color:darkolivegreen; */
+  border:none;
+  border:1px solid black;
+  border-radius:100%;
+}
+
+.pinkb {
+  /* background-color:darkolivegreen; */
+  border:none;
+  border:1px solid black;
+  border-radius:100%;
 }

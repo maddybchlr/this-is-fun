@@ -1,8 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap');
+
 a {
   text-decoration:none;
-  color:black
+  color:black;
+  font-family: 'Source Serif Pro', serif;
+  font-size:11pt;
 }
 
 a:hover {
-  text-decoration:underline;
+  /* text-decoration:underline; */
+  background-color:#ffe866;
+}
+
+.projectbox {
+  position:absolute;
+  /* border:1px solid black; */
+  height:20px;
+  width:80%;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  text-align:center;
 }
