@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Spectral&display=swap');
 
 a {
   text-decoration:none;
   color:black;
-  font-family: 'Source Serif Pro', serif;
+  font-family: 'Spectral', serif;
   font-size:11pt;
 }
 
@@ -13,12 +13,25 @@ a:hover {
 }
 
 .projectbox {
+  display:flex;
+  flex-direction:row;
   position:absolute;
   /* border:1px solid black; */
-  height:20px;
+  height:25px;
   width:80%;
   top:50%;
   left:50%;
   transform:translate(-50%, -50%);
   text-align:center;
+  justify-content: space-between;
+}
+
+.project {
+  /* border:1px solid blue; */
+}
+
+img {
+  position:relative;
+  height:11.1px;
+  top:2px;
 }

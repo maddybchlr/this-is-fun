@@ -144,10 +144,31 @@
       50% {top:120px}
       100% {top:115px}
     }
+
+    .back {
+      position:absolute;
+      height:25px;
+      width:25px;
+      top:10px;
+      left:10px;
+      color:black;
+      border:1px solid black;
+      text-align: center;
+      text-decoration:none;
+      opacity:.1;
+      transition:.2s;
+    }
+
+    .back:hover {
+      opacity:1;
+    }
+
   </style>
 </head>
 
 <body>
+  <a href="../index.html" class="back">&#8604;</a>
+
   <img class="cloud1" src="cloud1.png">
   <img class="cloud2" src="cloud2.png">
   <img class="cloud3" src="cloud1.png">
@@ -183,7 +204,7 @@
     ctx.lineCap = 'square';
     ctx.strokeStyle = '#16D84D';
 
-    ctx.fillStyle = "#00B440";
+    ctx.fillStyle = "#08B535";
     ctx.fillRect(0, 0, canvas.width, canvas.height);
 
     canvas.addEventListener('mousedown', function(e) {

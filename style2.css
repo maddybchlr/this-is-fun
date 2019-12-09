@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Spectral&display=swap');
+
+body {
+  background-color:#ffe866;
+  animation: bgfade .6s ease;
+  animation-delay:.4s;
+  animation-fill-mode:forwards;
+}
+
+a {
+  position:relative;
+  top:0;
+  text-decoration:none;
+  color:black;
+  font-family: 'Spectral', serif;
+  font-size:11pt;
+}
+
+a:hover {
+  background-color:#ffe866;
+}
+
+.projectbox {
+  display:flex;
+  flex-direction:row;
+  position:absolute;
+  /* border:1px solid black; */
+  height:140px;
+  width:80%;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  text-align:left;
+  justify-content: space-between;
+  animation: grow .6s ease;
+  animation-delay:.4s;
+  animation-fill-mode:forwards;
+}
+
+.project {
+  /* border:1px solid blue; */
+}
+
+.resource1 {
+  opacity:1;
+  animation:appear .2s ease;
+  animation-fill-mode:forwards;
+  animation-delay:.7s;
+}
+
+.resource2 {
+  opacity:1;
+  animation:appear .2s ease;
+  animation-fill-mode:forwards;
+  animation-delay:.5s;
+}
+
+.resource3 {
+  opacity:1;
+  animation:appear .2s ease;
+  animation-fill-mode:forwards;
+  animation-delay:.3s;
+}
+
+.resource4 {
+  opacity:1;
+  animation:appear .2s ease;
+  animation-fill-mode:forwards;
+  animation-delay:.1s;
+}
+
+img {
+  position:relative;
+  height:11.1px;
+  top:2px;
+}
+
+.resources {
+  background-color:white;
+}
+
+.arrow {
+  color: #ffe866;
+  animation: arrowfade .6s ease;
+  animation-delay:.4s;
+  animation-fill-mode: forwards;
+}
+
+.titlebox {
+  position:absolute;
+  /* border:1px solid black; */
+  width:80%;
+  left:50%;
+  top:34%;
+  transform:translateX(-50%);
+  color:white;
+  font-family: 'Spectral', serif;
+  font-size:58pt;
+  -webkit-text-stroke: 1px black;
+}
+
+@keyframes grow {
+  0% {height:140px;}
+  100% {height:25px;}
+}
+
+@keyframes appear {
+  0% {opacity:1}
+  100% {opacity:0}
+}
+
+@keyframes bgfade {
+  0% {background-color:#ffe866}
+  100% {background-color:white}
+}
+
+@keyframes arrowfade {
+  0% {color:#ffe866}
+  100% {color:white}
+}
