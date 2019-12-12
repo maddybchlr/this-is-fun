@@ -2,40 +2,38 @@
 
 body {
   font-family:Prompt;
-  font-size:60px;
-  line-height:100px;
+  font-size:90px;
+  line-height:120px;
   text-align:center;
 
   background-color:#00B440;
-  /* color:#F5931C; */
 
-  min-height: 100vh;
+  min-height: 96vh;
+  min-width: 98.8vw;
 
   display:flex;
   align-items:center;
   justify-content:center;
+  cursor:default;
+
+  position:fixed;
 }
 
 section {
-  width:1200px;
+  width:1400px;
 
   display:grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-auto-rows:100px;
+  grid-auto-rows:95px;
+
+  color:white;
+  /* text-shadow: 1px 1px 2px #006823; */
 }
 
 div {
   font-weight:100;
   /* transform:scale(.2); */
   transition: transform .3s;
-}
-
-.no {
-  color:#00B440;
-}
-
-.yes {
-  /* color:white; */
 }
 
 .back {
@@ -52,6 +50,7 @@ div {
   transition:.2s;
   font-size:12pt;
   line-height:18pt;
+  z-index:1;
 }
 
 .back:hover {
